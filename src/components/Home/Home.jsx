@@ -2,6 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import { toast } from "react-toastify";
 import { Link } from "react-router-dom";
+import shreyasmedialogo from "../../assets/shreyasmedialogo.png";
 
 const Home = () => {
   const [newstype, setNewsType] = useState("");
@@ -73,10 +74,10 @@ const Home = () => {
 
   return (
     <>
-      <div className="min-h-screen flex items-center justify-center bg-gray-100">
-        <form onSubmit={handleSubmit} className="bg-white p-20 rounded shadow-md w-full max-w-4xl space-y-8">
-          <h2 className="text-2xl font-bold mb-4 text-center text-orange-800 mb-10">Shreyas Media</h2>
-
+      <div className="min-h-screen flex items-center justify-center bg-gray-100 ">
+        <form onSubmit={handleSubmit} className="bg-white p-8 md:p-20 rounded shadow-md w-full max-w-xs md:max-w-2xl lg:max-w-4xl space-y-8">
+          {/* <h2 className="text-xl md:text-2xl font-bold mb-4 text-center text-orange-800 mb-10">Shreyas Media</h2> */}
+          <img src={shreyasmedialogo} alt='shreyasmedialogo' className="w-60 h-20 md:w-auto md:h-auto" />
           {/* First Dropdown */}
           <div>
             <label className="text-xl font-medium">News :</label>

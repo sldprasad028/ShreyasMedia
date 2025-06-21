@@ -1932,7 +1932,7 @@ const handleMicClick = () => {
   
   return (
     <>
-    <div className="px-20 mb-6 flex flex-col">
+    <div className="px-8 lg:px-20 mb-6 flex flex-col">
       {/* Hidden Google Translate element */}
       <div id="google_translate_element" style={{ display: 'none' }}></div>
       
@@ -1945,21 +1945,21 @@ const handleMicClick = () => {
           </Link>
         </div>
       </div>
-      <Link to='/' className="px-6 py-3 bg-[#E11A68] text-[#FFF] w-[148px] mb-2 rounded text-center font-[montserrat] flex items-center justify-center space-x-2">
+      <Link to='/' className="px-3 lg:px-6 py-3 bg-[#E11A68] text-[#FFF] w-[148px] mb-2 rounded text-center font-[montserrat] flex items-center justify-center space-x-2">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
         </svg>
-        <span>Go Back</span>
+        <span className="text-xs lg:text-base">Go Back</span>
       </Link>
       <img
         src={imageUrl}
         alt={newsData?.title}
-        className="w-full h-[600px] object-fit"
+        className="w-full h-[300px] lg:h-[600px] object-fit"
       />
       
-      <div className="flex justify-between my-5">
+      <div className="flex flex-col-reverse lg:flex-row justify-center  lg:justify-between gap-6 lg:gap-0 my-5">
         <div className="flex">
-      <h1 className="px-6 py-3 bg-[#E11A68] text-[#FFF] w-[218px] text-center font-[montserrat] flex items-center justify-center">
+      <h1 className="px-2 lg:px-6 py-2 lg:py-3 bg-[#E11A68] text-[#FFF] w-[218px] text-sm lg:text-base text-center font-[montserrat] flex items-center justify-center">
         To Read the news
       </h1>
       {
@@ -2072,14 +2072,14 @@ const handleMicClick = () => {
           {typeof data === 'string' ? parse(data, options) : null}
         </div>
 
-        <div className="my-4">
+        {/* <div className="my-4">
           <h1 className="font-[inter] text-lg italic">
             These reforms are not just policy shifts — they are bold steps toward
             empowering every citizen.” – Prime Minister
           </h1>
-        </div>
+        </div> */}
 
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-2 my-4">
           <h1 className="font-[inter] text-lg">Share on :</h1>
           <div className="flex gap-4">
             {/*  */}

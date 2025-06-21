@@ -48,7 +48,7 @@ const Login = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row gap-8 items-center justify-center min-h-screen bg-gray-100 p-4">
+    <div className="flex flex-col  gap-8 items-center justify-center min-h-screen bg-gray-100 p-4">
       
       <img
         src={shreyasmedialogo}
