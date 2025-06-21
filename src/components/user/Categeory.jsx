@@ -105,7 +105,7 @@ useEffect(() => {
 
   return (
     <div className="px-4 md:px-8 mt-8 mb-10">
-      <div className="hidden md:block  grid grid-cols-5 gap-2 mb-6 flex-wrap">
+      <div className="grid grid-cols-2 md:grid-cols-5 gap-6 mb-6 ">
         {categories.map((eachObject) => (
           <button key={eachObject.id} onClick={() => setSelectedCategory(eachObject.title)}
             className={`${

@@ -67,3 +67,24 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+  }
+
+  /* Remove space from body when banner is hidden */
+  body {
+    top: 0px !important;
+  }
+
+  /* Hide mini logo */
+  .goog-logo-link {
+    display: none !important;
+  }
+
+  .goog-te-gadget {
+    color: transparent !important;
+  }
+
+  .goog-te-gadget .goog-te-combo {
+    @apply text-black bg-white border rounded px-2 py-1; /* Tailwind style */
+  }

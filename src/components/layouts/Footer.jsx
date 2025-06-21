@@ -66,7 +66,7 @@ const Footer = () => {
               <h1 className='font-[inter] text-sm lg:text-base'>Get the latest updates straight to your inbox</h1>
               <input className='w-9/12 md:w-auto  p-1 md:p-2 border border-white rounded-lg' placeholder='Enter your email' />
               {/* Submit Button */}
-              <button className='w-9/12 md:w-auto px-4 py-2 lg:px-5 lg:py-3 bg-[#E11A68] rounded-lg font-[inter]'>
+              <button className='w-9/12 md:w-auto px-4 py-1 md:py-2 lg:px-5 lg:py-3 bg-[#E11A68] rounded-lg font-[inter]'>
                   Subscribe
               </button>
               <h1 className='font-[inter] font-semibold text-sm'>Download Our App</h1>
