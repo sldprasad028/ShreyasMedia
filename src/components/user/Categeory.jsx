@@ -160,19 +160,19 @@ useEffect(() => {
         </div>
         
         {/* Right sidebar content remains unchanged */}
-        <div className='w-full lg:w-1/3'>
+        <div className='w-full lg:w-1/2 xl:w-1/3'>
           <div className=' lg:border lg:border-gray-300 rounded-xl p-4'>
       <h2 className='text-xl font-semibold mb-4'>Trending Now</h2>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-4 lg:gap-2'>
           {trendingNews.map((news, index) => (
-          <div key={index} className='flex items-center gap-3 md:gap-2  mb-2 shadow p-4 rounded-lg'>
+          <div key={index} className='flex items-center  gap-3 md:gap-2  mb-2 shadow p-4 rounded-lg'>
             <img 
               src={news.image || PIC} 
               className='w-20 h-24 object-cover rounded-md' 
               alt={news.title} 
             />
             <div>
-              <h1 className="text-sm font-semibold mt-2">{news.title}</h1>
+              <h1 className="text-sm xl:text-sm font-semibold mt-2">{news.title}</h1>
               <p className='text-xs text-gray-500 mt-1'>
                 ⏱️ {news.time || "2 hrs"} ago    👁 {news.views || "1.2M"} views
               </p>

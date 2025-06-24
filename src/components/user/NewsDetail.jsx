@@ -2941,8 +2941,8 @@ const NewsDetail = () => {
       {/* Hidden Google Translate element */}
       <div id="google_translate_element" style={{ display: 'none' }}></div>
       
-      <div className='w-full h-24 px-20 py-2.5'>
-        <div className='flex flex-col gap-0'>
+      <div className='w-full h-24 px-0 py-2.5'>
+        <div className='flex flex-col items-start gap-0'>
           <Link className='w-40 h-16 bg-center bg-cover relative' style={{backgroundImage: `url(${shreyasmedialogo})`}} to='/'>
             <div className='absolute bottom-[30px] right-[50px]'>
               <h1 className='text-lg font-semibold text-[#1C1C1C] font-[montserrat]'>News</h1>

@@ -14,8 +14,8 @@ const Footer = () => {
                             <h1 className='text-lg font-semibold text-[#1C1C1C] font-[montserrat] text-[#FFF]'>News</h1>
                         </div>
                       </div> */}
-                      <div className="relative flex justify-center items-start">
-                        <p className="text-white text-sm lg:text-[10px] absolute top-2 right-[40%]">News</p>
+                      <div className="relative flex justify-start  items-start">
+                        <p className="text-white text-sm lg:text-[12px] absolute top-2 left-[18%] md:left-[16%] lg:left-[26%]">News</p>
                         <img src={LOGO} alt="logo" className="w-[140px] h-[53px]"/>
                       </div>
                     </div>

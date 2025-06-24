@@ -6,6 +6,7 @@ import { ToastContainer } from "react-toastify";
 import Header from "./components/layouts/Header";
 import UserHome from "./components/user/UserHome";
 import NewsDetail from "./components/user/NewsDetail";
+import Video from "./components/video/Video";
 
 const MainRoute = () => {
   return (
@@ -16,6 +17,9 @@ const MainRoute = () => {
         <Route path="/adminlogin" element={<AdminLogin />} />
         <Route path="/home" element={<Home />} />
         <Route path="/newsdetails/:newsId" element={<NewsDetail />} />
+
+        <Route path="/video" element={<Video/>} />
+
       </Routes>
     </>
   );

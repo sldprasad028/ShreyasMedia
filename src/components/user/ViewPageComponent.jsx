@@ -112,13 +112,13 @@ const ViewPageComponent = ({ category }) => {
         return (
           <div
             key={`${item.id}-${index}`} // Better key using item.id
-            className="p-4 rounded shadow cursor-pointer flex gap-4 border border-gray-200"
+            className="p-4 rounded shadow cursor-pointer flex flex-col md:flex-row gap-4 border border-gray-200"
             onClick={() => handleClick(item.newsId || item.id)}
           >
             <img 
               src={item.image} 
               alt="thumbnail" 
-              className="w-40 h-40 object-cover rounded-md" 
+              className="w-full md:w-40 h-40 object-cover rounded-md" 
               onError={(e) => {
                 e.target.src = 'https://via.placeholder.com/160';
               }}
