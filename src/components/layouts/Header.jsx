@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div className='flex flex-col bg-[#FFF2F6] gap-0'>
       {/* 1st */}
-        <div className='w-full h-24 px-20 py-2.5'>
+        <div className='w-full h-24 px-20 py-6 lg:py-2.5'>
           <div className='flex flex-col items-start gap-0 '>
             <Link className='w-36 md:w-28 h-11  lg:w-40 lg:h-16 bg-center bg-cover relative' style={{backgroundImage : `url(${shreyasmedialogo})`}} to='/'>
               <div className='absolute bottom-[20px] right-[35px] lg:bottom-[30px] lg:right-[50px]'>
