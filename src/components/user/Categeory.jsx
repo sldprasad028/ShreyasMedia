@@ -112,7 +112,7 @@ useEffect(() => {
               selectedCategory === eachObject.title
                 ? 'bg-[#E11A68] text-white'
                 : 'bg-[#FFF0F5] text-[#E11A68]'
-            } font-[montserrat] px-6 py-1 rounded-xl font-semibold text-sm lg:text-base `}
+            } font-[montserrat] px-2 lg:px-6 py-1 rounded-xl font-semibold text-sm lg:text-base `}
           >
             {eachObject.title}
           </button>
